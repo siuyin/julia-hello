@@ -44,3 +44,5 @@ Demonstrates the use of `julia` coroutines.
 ```
 julia async_run.jl
 ```
+
+`julia chnl_run.jl` demonstrate the use of channels.
