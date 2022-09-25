@@ -37,3 +37,10 @@ http `get` and non-blocking server examples.
 I ran a benchmark on my 4-core i5 computer and it served about 6,000 requests per second.
 
 Similar code with `go` served about 9,000 requests per second.
+
+## async
+Demonstrates the use of `julia` coroutines.
+
+```
+julia async_run.jl
+```
