@@ -1,5 +1,8 @@
 # Experiments with the Julia programming language
 
+## hello.jl
+Your basic hello world.
+
 ## shape.jl
 Demonstrates use of modules.
 
