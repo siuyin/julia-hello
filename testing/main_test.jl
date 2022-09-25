@@ -24,3 +24,17 @@ end
         @test sub(d.a,d.b) == d.o
     end
 end
+
+# A test set equivalent.
+begin
+    struct D
+        a
+        b
+        o
+    end
+    dat = [D(2,3,5), D(4,5,9), D(1,2,3)]
+    
+    for d in dat
+        @test sum(d.a,d.b) == d.o
+    end
+end
