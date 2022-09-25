@@ -1,8 +1,7 @@
 include("atoi.jl")
 
-function demoAToI(s)
-    println("String $s to Int32 example: $(atoi(s))")
-end
+## Math style function definition.
+demoAToI(s) = println("String $s to Int32 example: $(atoi(s))")
 
 demoAToI("23")
 demoAToI("123b")
