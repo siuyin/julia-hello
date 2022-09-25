@@ -29,3 +29,11 @@ Within the REPL (Read,Evaluate,Print Loop):
 ```
 include("shape-main.jl")
 ```
+
+## http
+http `get` and non-blocking server examples.
+`julia serve_run.jl`
+
+I ran a benchmark on my 4-core i5 computer and it served about 6,000 requests per second.
+
+Similar code with `go` served about 9,000 requests per second.
