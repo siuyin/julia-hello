@@ -6,7 +6,7 @@ using Dates
 function myIP()
     println("start: ", now())
 
-    r=HTTP.request("GET","http://httpbin.org/ip")
+    @time r=HTTP.request("GET","http://httpbin.org/ip")
     println(String(r.body))
 
     println("end: ", now())
