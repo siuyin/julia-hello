@@ -3,6 +3,7 @@ include("atoi.jl")
 ## Math style function definition.
 demoAToI(s) = println("String $s to Int32 example: $(atoi(s))")
 
+@info "starting atoi demo"
 demoAToI("23")
 
 # Enable debugging by setting ENV["JULIA_DEBUG"="main,atoi" -- note leave out the .jl extension.
