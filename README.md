@@ -7,6 +7,10 @@ Run with `julia hello.jl`
 ## testing/`main_test.jl`
 Run with `julia main_test.jl`.
 
+## atoi
+String to integer.
+try/catch and Logging
+
 ## shape.jl
 Demonstrates use of modules.
 
