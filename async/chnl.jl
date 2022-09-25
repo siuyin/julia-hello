@@ -4,7 +4,7 @@ function randGen(c::Channel)
     end
 end
 
-intCh=Channel(randGen)
+#intCh=Channel(randGen)
 
 function double(c::Channel)
     n=take!(c)
