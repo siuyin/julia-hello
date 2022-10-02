@@ -7,6 +7,10 @@ Run with `julia hello.jl`
 ## testing/`main_test.jl`
 Run with `julia main_test.jl`.
 
+### modeltesting
+Example where models are built and tested as they are build.
+include("testing.jl") in REPL to run tests.
+
 ## atoi
 String to integer.
 try/catch and Logging
